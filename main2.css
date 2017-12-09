@@ -1,0 +1,177 @@
+/* -------------------––––––––––––––––––––––-----------------
+                   Reset and Clearfix
+--------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+/*-------------------------------------------------------
+                        Logo
+---------------------------------------------------------*/
+header {
+    background-color: rgb(49, 49, 49);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.logo {
+    width: 160px;  
+    margin: 0 auto;
+    padding-bottom:10px;
+    
+}
+
+.logo p {
+    font-family: 'Marck Script', 'Times New Roman', serif;
+    font-size: 30px;  
+     
+}
+
+.logo a {
+    text-decoration: none; 
+}
+
+
+/* ----------------------------------------------------
+                    Main Navigation
+-------------------------------------------------------*/
+
+.principal {
+    position: fixed;
+    top:50px;
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    text-transform: uppercase;
+}
+
+.main-nav li {
+    list-style-type: none;
+    float: left;
+    background-color:rgb(58, 58, 58);
+    vertical-align: top;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.main-nav {
+    width: 750px;
+    margin:0 auto;
+}
+
+
+/* ----------------------------------------------------
+                    Footer
+-------------------------------------------------------*/
+
+
+footer {
+    background-color: rgb(58, 58, 58);    
+}
+
+footer li {
+    list-style-type: none;
+    width: 100px;
+    float: left; 
+    text-align: center; 
+    padding: 10px 10px;
+}
+
+footer a, .main-nav a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer {
+    width: 450px;
+    margin: 0 auto;
+}
+
+
+/* ----------------------------------------------------
+                    Links
+-------------------------------------------------------*/
+
+
+.logo a, .main-nav a, footer a {
+    color: rgb(226, 226, 226);
+}
+
+.main-nav li:hover, footer li:hover {
+    background-color: rgb(100, 100, 100);
+    transition: .5s;
+}
+
+.main-nav a:active {
+    color: rgb(14, 14, 14);
+}
+
+
+.aprind a{
+    color: rgb(150,150,150);
+}
+
+
+
+/* ----------------------------------------------------
+                    General Styles
+-------------------------------------------------------*/
+body {
+    font-family: Courier New, Courier, sans-serif;
+    margin: 0 auto;
+    background-image: url("https://www.belfort.ro/wp-content/uploads/2016/01/Depositphotos_22191091_original.png");
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(226, 226, 226);
+    
+}
+
+
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.5);
+    padding: 60px;
+}
+
+article {
+    margin-top: 70px;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+h1 {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+
